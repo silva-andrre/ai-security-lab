@@ -1,1 +1,103 @@
 # ai-security-lab
+
+> **English** | [Português abaixo](#português)
+
+---
+
+## English
+
+### What this is
+
+A hands-on portfolio of AI Security research, tooling, and attack/defense experiments — built while transitioning from traditional AppSec leadership into AI Security management.
+
+This repository documents real work: scripts that run, tests that break things, and findings that are written up. Not notes. Not summaries. Evidence.
+
+
+### Structure
+
+```
+ai-security-lab/
+├── phase-1-fundamentals/       # OWASP LLM Top 10 · Anthropic API · prompt injection basics
+├── phase-2-tools-and-attack/   # Promptfoo · Guardrails AI · jailbreak testing · MCP Security
+├── phase-3-portfolio/          # LLM Security Scanner · multi-tool agent · log analysis
+├── phase-4-playbooks/          # Incident response · AI governance · interview prep artifacts
+└── notes/                      # Research references and reading notes
+```
+
+### Coverage (in progress)
+
+| Area | Status |
+|---|---|
+| OWASP LLM Top 10 | In progress |
+| Anthropic API (Python SDK) | In progress |
+| Promptfoo test suites | Planned |
+| Guardrails AI | Planned |
+| LiteLLM / AI Gateway | Planned |
+| MITRE ATLAS | Planned |
+| LLM Security Scanner (v1) | Planned |
+
+### Tech stack
+
+- Python · Anthropic SDK · Gemini API
+- Promptfoo · Guardrails AI · LiteLLM
+- Git · WSL2 (Ubuntu) · VSCode
+
+### References
+
+- [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- [MITRE ATLAS](https://atlas.mitre.org)
+- [NIST AI RMF](https://airc.nist.gov/RMF)
+- [Simon Willison on Prompt Injection](https://simonwillison.net)
+- [LLM Security](https://llmsecurity.net)
+
+---
+
+## Português
+
+### O que é este repositório
+
+Um portfólio prático de pesquisa, ferramentas e experimentos de ataque e defesa em AI Security, construído durante a transição de liderança em AppSec tradicional para gestão de AI Security.
+
+Este repositório documenta trabalho real: scripts que rodam, testes que quebram coisas e achados documentados. Não são anotações. Não são resumos. São evidências.
+
+
+### Estrutura
+
+```
+ai-security-lab/
+├── phase-1-fundamentals/       # OWASP LLM Top 10 · Anthropic API · bases de prompt injection
+├── phase-2-tools-and-attack/   # Promptfoo · Guardrails AI · jailbreak · MCP Security
+├── phase-3-portfolio/          # LLM Security Scanner · agente multi-tool · análise de logs
+├── phase-4-playbooks/          # Resposta a incidentes · governança · materiais de entrevista
+└── notes/                      # Referências de pesquisa e notas de leitura
+```
+
+### Cobertura (em andamento)
+
+| Área | Status |
+|---|---|
+| OWASP LLM Top 10 | Em andamento |
+| Anthropic API (Python SDK) | Em andamento |
+| Suites de teste com Promptfoo | Planejado |
+| Guardrails AI | Planejado |
+| LiteLLM / AI Gateway | Planejado |
+| MITRE ATLAS | Planejado |
+| LLM Security Scanner (v1) | Planejado |
+
+### Stack técnica
+
+- Python · Anthropic SDK · Gemini API
+- Promptfoo · Guardrails AI · LiteLLM
+- Git · WSL2 (Ubuntu) · VSCode
+
+### Referências
+
+- [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- [MITRE ATLAS](https://atlas.mitre.org)
+- [NIST AI RMF](https://airc.nist.gov/RMF)
+- [Simon Willison sobre Prompt Injection](https://simonwillison.net)
+- [LLM Security](https://llmsecurity.net)
+
+---
+
+*Started June 2026 · Updated continuously*
