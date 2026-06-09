@@ -1,7 +1,7 @@
 """
 Prompt Injection Tester - Direct Attack
 AI Security Lab | Phase 1 - Fundamentals
-Author: André Nascimento
+Author: silva-andrre
 Reference: OWASP LLM Top 10 - LLM01: Prompt Injection
 
 Tests a set of direct prompt injection payloads against Claude (claude-haiku-4-5-20251001)
