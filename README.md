@@ -10,7 +10,7 @@
 
 A hands-on portfolio of AI Security research, tooling, and attack/defense experiments — built while transitioning from traditional AppSec leadership into AI Security management.
 
-This repository documents real work: scripts that run, tests that break things, and findings that are written up. Not notes. Not summaries. Evidence.
+This repository documents real work: scripts that run, tests that break things, and findings that are written up.
 
 
 ### Structure
@@ -58,7 +58,7 @@ ai-security-lab/
 
 Um portfólio prático de pesquisa, ferramentas e experimentos de ataque e defesa em AI Security, construído durante a transição de liderança em AppSec tradicional para gestão de AI Security.
 
-Este repositório documenta trabalho real: scripts que rodam, testes que quebram coisas e achados documentados. Não são anotações. Não são resumos. São evidências.
+Este repositório documenta trabalho real: scripts que rodam, testes que quebram coisas e achados documentados.
 
 
 ### Estrutura
