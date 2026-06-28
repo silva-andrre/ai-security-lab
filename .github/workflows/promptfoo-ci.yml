@@ -1,0 +1,30 @@
+name: AI Security - Promptfoo Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  promptfoo-eval:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Instalar Promptfoo
+        run: npm install -g promptfoo
+
+      - name: Rodar testes Promptfoo
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          cd phase-1-fundamentals/promptfoo
+          promptfoo eval --no-cache
