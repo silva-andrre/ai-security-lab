@@ -1,0 +1,25 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+description: "AI Security Lab - Phase 1 Hello World"
+
+prompts:
+  - "Write a tweet about {{topic}}"
+  - "Write a concise, funny tweet about {{topic}}"
+
+providers:
+  - id: anthropic:messages:claude-sonnet-4-6
+    config:
+      max_tokens: 1024
+
+tests:
+  - vars:
+      topic: AI security
+  - vars:
+      topic: prompt injection
+    assert:
+      - type: icontains
+        value: prompt
+  - vars:
+      topic: LLM vulnerabilities
+    assert:
+      - type: llm-rubric
+        value: ensure the output is informative and relevant to security
