@@ -6,7 +6,7 @@
 
 ## English
 
-### What this is
+### What is this repository
 
 A hands-on portfolio of AI Security research, tooling, and attack/defense experiments — built while transitioning from traditional AppSec leadership into AI Security management.
 
@@ -101,4 +101,8 @@ ai-security-lab/
 ---
 
 *Started June 2026 · Updated continuously. This project is developed with the support of Claude (Anthropic). Content curation, editorial choices, and responsibility for what is published here are mine.*
+
+---
+
+*Iniciado em junho de 2026 · Atualizado continuamente. Este projeto é desenvolvido com o apoio do Claude (Anthropic). A curadoria de conteúdo, as escolhas editoriais e a responsabilidade pelo que é publicado aqui são minhas.*
 
