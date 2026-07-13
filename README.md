@@ -28,10 +28,10 @@ ai-security-lab/
 
 | Area | Status |
 |---|---|
-| OWASP LLM Top 10 | In progress |
-| Anthropic API (Python SDK) | In progress |
-| Promptfoo test suites | Planned |
-| Guardrails AI | Planned |
+| OWASP LLM Top 10 | Done |
+| Anthropic API (Python SDK) | Done |
+| Promptfoo test suites | Done |
+| Guardrails AI | In progress |
 | LiteLLM / AI Gateway | Planned |
 | MITRE ATLAS | Planned |
 | LLM Security Scanner (v1) | Planned |
@@ -76,10 +76,10 @@ ai-security-lab/
 
 | Área | Status |
 |---|---|
-| OWASP LLM Top 10 | Em andamento |
-| Anthropic API (Python SDK) | Em andamento |
-| Suites de teste com Promptfoo | Planejado |
-| Guardrails AI | Planejado |
+| OWASP LLM Top 10 | Feito |
+| Anthropic API (Python SDK) | Feito |
+| Suites de teste com Promptfoo | Feito |
+| Guardrails AI | Em andamento |
 | LiteLLM / AI Gateway | Planejado |
 | MITRE ATLAS | Planejado |
 | LLM Security Scanner (v1) | Planejado |
