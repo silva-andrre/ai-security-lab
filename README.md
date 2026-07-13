@@ -21,7 +21,6 @@ ai-security-lab/
 ├── phase-2-tools-and-attack/   # Promptfoo · Guardrails AI · jailbreak testing · MCP Security
 ├── phase-3-portfolio/          # LLM Security Scanner · multi-tool agent · log analysis
 ├── phase-4-playbooks/          # Incident response · AI governance · interview prep artifacts
-└── notes/                      # Research references and reading notes
 ```
 
 ### Coverage (in progress)
@@ -69,7 +68,6 @@ ai-security-lab/
 ├── phase-2-tools-and-attack/   # Promptfoo · Guardrails AI · jailbreak · MCP Security
 ├── phase-3-portfolio/          # LLM Security Scanner · agente multi-tool · análise de logs
 ├── phase-4-playbooks/          # Resposta a incidentes · governança · materiais de entrevista
-└── notes/                      # Referências de pesquisa e notas de leitura
 ```
 
 ### Cobertura (em andamento)
