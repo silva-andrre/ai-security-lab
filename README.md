@@ -100,4 +100,5 @@ ai-security-lab/
 
 ---
 
-*Started June 2026 · Updated continuously*
+*Started June 2026 · Updated continuously. This project is developed with the support of Claude (Anthropic). Content curation, editorial choices, and responsibility for what is published here are mine.*
+
