@@ -18,11 +18,13 @@ Pré-requisitos: arquivo `.env` na raiz do projeto com `ANTHROPIC_API_KEY` confi
 
 ## Estrutura
 
+```
 guardrails-week7/
 ├── test-guardrails-v10-simple.py   # Script principal
 ├── test-results.json               # Resultado detalhado por técnica
 ├── test-results.csv                # Resultado em formato tabular
 └── README.md                       # Este arquivo
+```
 
 ## Metodologia
 
