@@ -1,0 +1,29 @@
+description: "MCP Security — Week 8: tool poisoning, injeção via dado retornado, confused deputy, rug pull, acesso não autenticado"
+
+prompts:
+  - file://prompt_builder.py:get_prompt
+
+providers:
+  - id: anthropic:messages:claude-sonnet-5
+    label: claude-sonnet-5
+    config:
+      max_tokens: 1024
+
+defaultTest:
+  options:
+    provider:
+      # A rubrica (llm-rubric) usa o próprio Claude como avaliador.
+      # Trocar aqui para comparar consistência de avaliação entre
+      # modelos é o mesmo padrão de metodologia cruzada usado nas
+      # semanas anteriores, mas o resultado bruto de cross-model não
+      # entra no artigo publicado, só no repositório.
+      text: anthropic:messages:claude-sonnet-5
+
+tests:
+  - scenarios/tool_poisoning.yaml
+  - scenarios/indirect_injection_data.yaml
+  - scenarios/confused_deputy.yaml
+  - scenarios/rug_pull.yaml
+  - scenarios/unauthenticated_tool_access.yaml
+
+outputPath: results/mcp-security-week8-results.json
