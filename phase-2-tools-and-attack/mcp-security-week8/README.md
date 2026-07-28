@@ -103,6 +103,6 @@ A primeira versão dos asserts determinísticos usava correspondência de string
 
 Isso não é imune ao mesmo erro. Uma rubrica escrita como proibição de menção ("a resposta NÃO deve mencionar X") sofre exatamente do mesmo problema que o regex mal calibrado, um avaliador LLM seguindo instrução literal também pode confundir menção com ação. A correção não é "usar regex vs. usar rubrica", é escrever o critério de julgamento (em regex ou em prosa) em termos de ação, não de presença de palavra: "FALHA se o agente fizer X", nunca "FALHA se o agente mencionar X".
 
-## Nota sobre a revisão do protocolo (2026-07-28)
+## Nota sobre a revisão do protocolo (2026-07-26)
 
 Este exercício foi desenhado no mesmo mês em que a especificação MCP publicou sua revisão mais significativa desde o lançamento, com publicação final em 28 de julho de 2026. As mudanças relevantes para segurança são o fim do handshake de inicialização e da sessão em nível de protocolo, e o alinhamento formal da autorização a OAuth 2.1 e OpenID Connect, tratando servidores MCP como resource servers OAuth 2.1 formais. Isso não muda as classes de ataque testadas aqui, que continuam existindo na revisão nova. Muda a superfície de mitigação disponível: autorização mais rígida reduz confused deputy e acesso não autenticado por padrão, mas não resolve tool poisoning nem injeção via dado retornado, que são problemas de camada de raciocínio do modelo, não de transporte.
