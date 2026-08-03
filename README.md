@@ -54,10 +54,16 @@ upstream model artifact, documented as a finding rather than worked around.
 
 | Week | Topic | Folder |
 |---|---|---|
+| 2 | LLM prompt injection test, ten prompts against the Anthropic API | `phase-1-fundamentals/llm-security-lab` |
+| 3 | System prompt extraction | `phase-1-fundamentals/sys-prom-extrac` |
+| 4 | Promptfoo prompt evaluation | `phase-1-fundamentals/promptfoo` |
 | 6 | Prompt injection across two models, log quality analysis | `phase-2-tools-and-attack/promptfoo_injections` |
 | 7 | Guardrails AI, input and output validation | `phase-2-tools-and-attack/guardrails/guardrails-week7` |
 | 8 | MCP security, five agentic attack classes | `phase-2-tools-and-attack/mcp-security-week8` |
 | 9 | LLM Security Scanner v1, LLM01 / LLM02 / LLM07 | `phase-3-portfolio/llm-scanner-week9` |
+
+Weeks 1 and 5 have no folder. Week 1 was environment setup and week 5 produced
+written analysis rather than a new exercise.
 
 Folder naming from week 8 onward follows `<topic>-week<N>`. Earlier folders
 predate that convention and are kept unchanged, because published references
@@ -153,10 +159,16 @@ em vez de contornado.
 
 | Semana | Tema | Pasta |
 |---|---|---|
+| 2 | LLM Prompt Injection Test, dez prompts contra a API Anthropic | `phase-1-fundamentals/llm-security-lab` |
+| 3 | System Prompt Extraction | `phase-1-fundamentals/sys-prom-extrac` |
+| 4 | Avaliação de prompts com Promptfoo | `phase-1-fundamentals/promptfoo` |
 | 6 | Prompt injection em dois modelos, análise de qualidade de log | `phase-2-tools-and-attack/promptfoo_injections` |
 | 7 | Guardrails AI, validação de entrada e saída | `phase-2-tools-and-attack/guardrails/guardrails-week7` |
 | 8 | MCP security, cinco classes de ataque agêntico | `phase-2-tools-and-attack/mcp-security-week8` |
 | 9 | LLM Security Scanner v1, LLM01 / LLM02 / LLM07 | `phase-3-portfolio/llm-scanner-week9` |
+
+As semanas 1 e 5 não têm pasta. A semana 1 foi preparação de ambiente e a semana
+5 produziu análise escrita em vez de novo exercício.
 
 A nomenclatura de pastas a partir da semana 8 segue `<tema>-week<N>`. Pastas
 anteriores precedem essa convenção e permanecem inalteradas, porque referências
@@ -201,6 +213,6 @@ ai-security-lab/
 - [LLM Security](https://llmsecurity.net)
 
 ---
-*Started June 2026 · Updated continuously. This project is developed with the support of Claude (Anthropic). Content curation, editorial choices, and responsibility for what is published here are mine.*
+*This project is developed with the support of Claude (Anthropic). Content curation, editorial choices, and responsibility for what is published here are mine.*
 
-*Iniciado em junho de 2026 · Atualizado continuamente. Este projeto é desenvolvido com o apoio do Claude (Anthropic). A curadoria de conteúdo, as escolhas editoriais e a responsabilidade pelo que é publicado aqui são minhas.*
+*Este projeto é desenvolvido com o apoio do Claude (Anthropic). A curadoria de conteúdo, as escolhas editoriais e a responsabilidade pelo que é publicado aqui são minhas.*
