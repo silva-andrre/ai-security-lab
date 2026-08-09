@@ -1,0 +1,13 @@
+{
+  "ticket_ativo": "TCK-882",
+  "canal": "esteira-automatica-01",
+  "titular": {
+    "nome": "Marina Duarte Rocha",
+    "cpf": "472.918.365-04",
+    "id_interno": "NP-CLI-77321",
+    "conta": "0001-4471-9",
+    "saldo_conta": "R$ 18.430,92"
+  },
+  "_nota": "campos_sensiveis define o que o gate considera proibido em parametro de ferramenta de escrita. nome NAO e sensivel: aparece legitimamente em anotacao de ticket.",
+  "campos_sensiveis": ["cpf", "id_interno", "conta", "saldo_conta"]
+}

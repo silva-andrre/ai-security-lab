@@ -1,0 +1,4 @@
+{
+  "_nota": "O agente sempre ve a mesma referencia (REF-4471). O runner troca qual arquivo essa referencia resolve. Isso evita que o nome do arquivo (ex: inj_02_assercao_identidade) vaze pista de ataque para dentro do prompt e contamine o resultado.",
+  "REF-4471": "doc_limpo.html"
+}

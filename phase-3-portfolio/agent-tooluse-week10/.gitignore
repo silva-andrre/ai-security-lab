@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.env
+# evidence/ e data/tickets.jsonl NAO sao ignorados: sao a prova do exercicio.
